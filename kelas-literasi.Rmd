@@ -1,0 +1,392 @@
+---
+title: "Menulis tulisan populer"
+subtitle: "Kelas Literasi Klub Seri Buku"
+author: "Rizqy Amelia Zein"
+date: "2019/09/20 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: ["default", "rladies", "rladies-fonts"]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      ratio: '16:9'
+      highlightLines: true
+      countIncrementalSlides: false
+vignette: >
+  %\VignetteIndexEntry{libs}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+class: inverse, middle, title-slide, spaced
+
+```{r setup, include=FALSE}
+library(fontawesome)
+library(tidyverse)
+library(emo)
+options(htmltools.dir.version = FALSE, width=120)
+```
+
+class: title-slide, spaced
+
+<img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
+
+# Menulis artikel opini dan komunikasi sains
+## Kelas Literasi Klub Seri Buku
+<br>
+### <b>Rizqy Amelia Zein</b>
+* Dosen, [Fakultas Psikologi, Universitas Airlangga](https://psikologi.unair.ac.id)
+* Anggota, [#SainsTerbuka Airlangga](https://sainsterbukaua.github.io/) `r fa("universal-access")`
+* Relawan, [INA-Rxiv](https://inarxiv.id) 
+* Researcher-in-training, [Institute for Globally Distributed Open Research and Education (IGDORE)](https://igdore.org/)
+
+---
+
+class: center, middle
+
+# Menghubungi saya?  
+
+`r fa("paper-plane")` <a href="mailto:amelia.zein@psikologi.unair.ac.id"></i>&nbsp; amelia.zein@psikologi.unair.ac.id</a>
+`r fa("twitter")` [@ameliazein](https://twitter.com/ameliazein)
+`r fa("github")` [@rameliaz](https://github.com/rameliaz)
+`r fa("desktop")` https://rameliaz.github.io
+
+
+Materi dalam paparan ini berlisensi `r fa("creative-commons")` 1.0 (*public domain*) dan tersedia di laman web pribadi saya **(https://rameliaz.github.io/talk/kelas-literasi-2019)**. 
+Kode tersedia secara terbuka di [repositori](https://github.com/rameliaz/kelas-literasi/blob/master/kelas-literasi.Rmd) `r fa("github")` saya.
+
+---
+
+class: inverse
+
+# Topik Utama 
+
+.pull-left[
+* Mengapa komunikasi sains penting bagi masyarakat
+* Artikel populer sebagai bentuk komunikasi sains
+* Memahami karakteristik pembaca/audiens/publik
+* Berkomunikasi dengan orang awam
+* Perbedaan substansi artikel ilmiah dan artikel populer
+* Struktur artikel populer vs artikel ilmiah
+* Menceritakan hasil riset dengan menggabungkan gaya naratif (*storytelling*) dan prinsip jurnalistik (5W1H)
+]
+
+
+.pull-right[
+![](https://media.giphy.com/media/l46CsCs3cOTdErUuk/giphy.gif)
+]
+
+---
+
+class: inverse, middle
+
+# Komunikasi sains (1)
+
+.pull-left[
+
+### Komunikasi sains adalah... "usaha yang melibatkan penggunaan berbagai **keterampilan, media, aktivitas, dan dialog** untuk menimbulkan satu atau lebih **respon personal (AEIOU)** dari **publik** pada sains/ilmu pengetahuan/ilmuwan.." 
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/EngTGyKXgbgcg/giphy.gif" style="width:100%;" class="fancyimage"/>
+]
+
+---
+
+# Komunikasi sains (2)
+
+* *Scientific culture* "...is **an integrated societal value system** that **appreciates and promotes science**, *per se*, and widepread **scientific literacy**, as important pursuits.." ([Burns, O'Connor, & Stocklmayer, 2003](http://journals.sagepub.com/doi/10.1177/09636625030122004))
+  
+* [*Scientific-temper*](https://medium.com/@Neelv1998/challenges-of-developing-scientific-temper-b0269dea106c) (perangai ilmiah)
+  - Pertama kali digunakan oleh Jawaharlal Nehru (1946)
+  - Merupakan **gaya hidup saintifik**, yang meliputi proses berpikir dan bertindak di level individual, sampai proses sosial di level kolektif, yang membantu masyarakat untuk **menerapkan metode pemerolehan sains** dalam **kehidupan sehari-hari**
+
+* Meliputi; 
+  - Usaha produksi pengetahuan
+  - Tidak mudah percaya apapun dan siapapun tanpa bukti atau pengujian terlebih dahulu
+  - Bersedia untuk mengubah opini/keyakinan apabila diberikan bukti yang bertentangan dengan keyakinan/opini tersebut
+  - Tidak semata-mata mengandalkan asumsi dan dugaan-dugaan kosong diatas bukti yang dapat difalsifikasi
+    
+---
+
+# Komunikasi sains: Apa tujuannya?
+
+.pull-left[
+* *Public understanding of science*<sup>1</sup>
+  - **A**wareness, termasuk familiar dengan aspek kebaruan dari sains
+  - **E**njoyment, atau respon afektif yang lain, termasuk mengapresiasi sains sebagai sesuatu yang menghibur dan seni
+  - **I**nterest, dapat dilihat dari keterlibatan sukarela untuk kemajuan sains dan upaya diseminasinya --> *citizen science*
+  - **O**pinion-forming, mengembangkan sikap dan persepsi yang positif terhadap sains
+  - **U**nderstanding, memahami sains, temasuk konten, proses, dan faktor sosial yang ditimbulkannya
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/w5FTwwiweGqDm/giphy.gif" style="width:100%;" class="fancyimage"/>
+]
+
+.footnote[
+<sup>[1]</sup> [Burns, O'Connor, & Stocklmayer, 2003](http://journals.sagepub.com/doi/10.1177/09636625030122004)
+]
+
+---
+
+# Siapakah *the public*?
+
+"...setiap orang, siapapun, semua anggota masyarakat"
+
+--
+
+* **Ilmuwan**: yang bekerja di pemerintahan, industri, dan lingkungan akademik (perguruan tinggi)
+* **Mediator**: komunikator (termasuk komunikator sains, jurnalis, dan bagian dari media), pendidik, dan *opinion-makers*/*influencer*
+* **Pengambil keputusan**: pengambil kebijakan di institusi pemerintahan, atau di komunitas sainstis
+* **Publik pada umumnya (*general public*)**: meliputi tiga kelompok diatas, ditambah orang-orang yang bekerja di sektor yang lain, misalnya siswa & guru di sekolah, pedagang di pasar, dsb.
+* **Masyarakat yang punya minat tinggi terhadap sains (*attentive public*)**: bagian dari *general public* yang sudah punya minat tinggi dan cenderung sudah punya literasi yang baik tentang sains dan aktivitas saintifik
+* **Masyarakat yang punya minat tinggi, tetapi literasi masih rendah**: bagian dari *general public* yang punya minat tinggi, tetapi belum *well-informed* mengenai sains dan teknologi
+
+--
+
+Dua terminologi yang juga sering digunakan...
+
+* **Orang awam**: semua orang, termasuk ilmuwan, yang bukan pakar mengenai suatu hal
+* **Komunitas saintis/praktisi**: orang-orang yang dianggap pakar, karena terlibat langsung pada aktivitas pemerolehan pengetahuan pada bidang/topik/isu tertentu
+
+---
+
+# Artikel populer sebagai bentuk komunikasi sains
+
+.pull-left[ 
+* Ada **jarak pengetahuan** antara para pakar dengan masyarakat awam
+* Masyarakat **butuh informasi yang kredibel**, agar tidak mudah percaya dengan [teori konspirasi](https://theconversation.com/prabowo-tak-percaya-hasil-hitung-cepat-mengapa-partisan-berpikir-konspiratif-115793) dan [berita bohong](https://www.theverge.com/2017/12/21/16804912/facebook-disputed-flags-misinformation-newsfeed-fake-news)
+* Membuat sains menjadi **semakin relevan** dengan kebutuhan masyarakat
+* Membantu **mempertemukan** peneliti dengan pengguna hasil riset
+* Meningkatkan **reputasi** peneliti dan universitas
+* Memperkuat **jejaring** dan **kolaborasi** dengan mitra diluar komunitas akademik
+]
+
+.pull-right[
+<img src="https://img.memecdn.com/conspiracy-theorists-meme_o_6278047.jpg" style="width:80%;" class="fancyimage"/>
+]
+
+---
+
+class: inverse
+
+# Memahami karakteristik pembaca
+
+.pull-left[
+* Masyarakat Indonesia sebagian besar bisa membaca, tetapi **buta huruf fungsional**. [Survei yang dilakukan OECD](https://www.oecd.org/skills/piaac/Skills-Matter-Jakarta-Indonesia.pdf) pada tahun 2014-2015 menunjukkan 70% responden usia dewasa memiliki **tingkat literasi di bawah level 1**.
+* Artinya sebagian besar masyarakat kita hanya bisa membaca teks yang sangat singkat, dengan topik yang mereka sudah familiar sebelumnya, dan hanya bisa mendeteksi satu ide pokok dari teks.
+* Orang dengan tingkat literasi di bawah level 1 hanya memiliki kemampuan penguasaan kosakata sederhana dan tidak terampil memahami struktur dari kalimat, paragraf, dan keseluruhan bacaan.
+* Singkatnya, meskipun sebagian besar orang Indonesia bisa membaca, mereka **tidak paham apa yang mereka baca**.
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/VgY4dDdN1W3NS/giphy.gif" style="width:100%;" class="fancyimage"/>
+]
+
+---
+
+# Berkomunikasi dengan orang awam
+
+.pull-left[
+* **Good, clean, and fair**<sup>1</sup>
+  - Menonjolkan adanya perhatian besar pada **kualitas informasi** yang diproduksi (*good*)
+  - Terbuka atas kritik dan memungkinkan adanya *reflexivity* (*fair*)
+  - Terbuka, transparan. Mendeklarasikan secara terbuka apabila ada konflik kepentingan (*clean*)
+* **Transparency is a key**
+  - Studi yang dilakukan [Pew Research (2019)](https://www.pewresearch.org/fact-tank/2019/08/05/5-key-findings-about-public-trust-in-scientists-in-the-u-s/) menyebutkan bahwa publik akan lebih percaya hasil riset apabila: 
+    - Hasil riset ditinjau secara **terbuka dan independen**
+    - Data mentah riset tersebut **tersedia secara terbuka**
+* Memungkinkan orang awam untuk terlibat
+* Menggunakan bahasa deskriptif
+]
+
+.pull-right[
+<img src="https://media.giphy.com/media/xTiN0NZZsYXkGwbcJ2/giphy.gif" style="width:80%;" class="fancyimage"/>
+]
+
+.footnote[
+<sup>[1]</sup> [Bucchi, 2013](http://journals.sagepub.com/doi/10.1177/0963662513498202)
+]
+
+---
+
+class: inverse, spaced
+
+# Latihan 1
+
+**NB: Mohon untuk tidak mengeklik tombol '*next*' apabila belum ada petunjuk**
+
+## Buka http://bit.ly/latihan-menulis
+
+Apabila anda bertemu dengan orang awam yang baru tahu anda sedang belajar disiplin ilmu tertentu, pertanyaan apa yang biasanya mereka ajukan kepada anda?
+
+--
+
+# Latihan 2
+
+Coba elaborasikan jawaban yang biasanya anda berikan kepada mereka. Singkat saja, kurang lebih 2-5 kalimat.
+
+---
+
+# Perbedaan artikel ilmiah dengan populer
+
+.pull-left[
+## Artikel Populer
+* Gaya bahasa cenderung fleksibel, mengikuti karakteristik audiens
+* Struktur menggunakan piramida terbalik
+* Tidak ada gaya penulisan baku yang harus diikuti
+* Menggunakan kosakata dan diksi yang dapat dipahami oleh pembaca awam dengan kemampuan literasi yang beragam
+* Membutuhkan waktu yang cenderung lebih singkat untuk ditulis dan disunting daripada artikel ilmiah
+  - Sehingga lebih cepat menjawab kebutuhan masyarakat awam
+]
+
+.pull-right[
+## Artikel Ilmiah
+* Gaya bahasa baku
+* Struktur cenderung rigid
+* Gaya penulisan disesuaikan dengan standar yang berlaku di komunitas akademik
+* Penuh dengan istilah teknis yang hanya dipahami oleh audiens dengan keterampilan/tingkat pendidikan tertentu
+* Membutuhkan keterampilan membaca tingkat lanjut 
+* Lebih sulit disunting
+* Membutuhkan waktu yang lama untuk diterbitkan, sehingga kalau topiknya tidak *timeless*, maka akan cenderung *outdated*
+]
+
+---
+
+# Struktur artikel populer dan artikel ilmiah<sup>*</sup>
+
+.pull-left[
+## Artikel Populer (800-1000 kata)
+* Judul -- menarik (maksimal 15 kata)
+* *Lead* -- menarik dan penting: Baru, mengejutkan, aneh, kontroversial, kontradiksi, anomali. Mengandung elemen emosional yang kuat.
+* Tesis/sinopsis/pertanyaan
+* Data/tren untuk mendukung *lead*
+* Mengapa/bagaimana
+* Analisis dan penjelasan
+* Rekomendasi dan solusi
+]
+
+.pull-right[
+## Artikel Ilmiah (3000-7000 kata)
+* Judul -- formal 8-20 kata
+* Abstrak (150-300 kata)
+* Pendahuluan/latar belakang
+* Metode
+* Hasil penelitian
+* Pembahasan/Diskusi
+* Kesimpulan
+* Daftar referensi
+]
+
+.footnote[
+[*] Diambil dari pelatihan penulisan artikel populer oleh The Conversation Indonesia, 23 Juli 2019
+]
+
+---
+
+# Prinsip Jurnalistik dan Metode *Storytelling*
+
+* Gunakan 5W1H (what, who, when, where, why, dan how) untuk menulis ulang kesimpulan hasil riset
+
+--
+
+* Menggunakan **gaya bertutur** dalam menjelaskan konsep yang kompleks pada audiens yang heterogen adalah cara yang terbaik
+
+--
+
+* Model *storytelling* cocok digunakan untuk mengkomunikasikan sains, terutama pada masyarakat dengan tradisi oral
+
+--
+
+* Kelebihan model ini adalah meningkatkan [keterlibatan pembaca](https://blogs.plos.org/blog/2018/05/16/science-and-art-find-common-ground-the-importance-of-storytelling/), [menguatkan trust masyarakat awam pada sains dan ilmuwan](https://link.springer.com/article/10.1186/s13750-018-0116-4), dan memudahkan pembaca awam [memahami konsep yang kompleks dengan gaya yang lebih persuasif](https://www.nature.com/articles/s41599-017-0047-7)
+
+--
+
+* Caranya
+
+--
+  
+  - Gunakan bahasa deskriptif, kemas tulisan sehingga pembaca merasa seolah-olah dirinya adalah bagian dari cerita.
+  
+--
+  
+  - Gunakan informasi sensoris. Bisa dengan infografis, seperti yang dilakukan Beritagar dan Tirto.id.
+  
+--
+
+  - Gunakan elemen emosional (marah, takut, sedih, terkejut) -- terutama ketika menulis *lead*, agar pembaca tertarik.
+
+--
+
+  - Gunakan plot untuk melengkapi kronologis cerita
+
+---
+
+class: inverse, middle
+
+# Cerita versus plot (1)
+
+.pull-left[
+
+* Raja mangkat sebulan yang lalu. Kemudian baru saja sang Ratu menyusul mangkat.
+
+* Raja mangkat sebulan yang lalu. Kemudian baru saja sang Ratu menyusul akibat tak mampu menanggung duka atas kematian suami yang dicintainya.
+
+]
+
+.pull-right[
+
+<img src="https://media.giphy.com/media/1xdHOCA9erNVCnZ1qE/giphy.gif" style="width:80%;" class="fancyimage"/>
+]
+  
+---
+
+# Cerita versus plot (2)
+
+## Raja mangkat sebulan yang lalu. Kemudian baru saja sang Ratu menyusul mangkat.
+
+--
+
+Kalimat ini adalah cerita yang mendeskripsikan dua kejadian yang terjadi berurutan, serta diceritakan dengan urutan yang benar.
+
+--
+
+## Raja mangkat sebulan yang lalu. Kemudian baru saja sang Ratu menyusul akibat tak mampu menanggung duka atas kematian suami yang dicintainya.
+
+--
+
+Kalimat ini tidak sekedar cerita, melainkan sebuah plot karena memberikan pembaca informasi **hubungan antara kejadian pertama dan kedua**.
+
+--
+
+Sebuah cerita akan berakhir pada pertanyaan "*lha trus?*", "*trus opo'o?*", "*so what?*", sedangkan plot akan membuat pembaca bertanya, "*lho kok isok ngono?*" dan "*opo'o kok ngono?*.
+
+---
+
+class: inverse
+
+# Latihan 4
+
+Silahkan membentuk kelompok 3-4 orang untuk mendiskusikan sebuah artikel ilmiah selama kurang lebih 15 menit.
+
+[Klik disini untuk membaca artikel](https://doi.org/10.1016/j.vaccine.2018.07.025)
+
+--
+
+# Latihan 5
+
+Setelah membaca artikel tersebut, buatlah sebuah paragraf pendek untuk menceritakan kembali kesimpulan yang sudah anda baca dalam artikel tersebut. Jangan lupa **gunakan prinsip 5W1H dan storytelling**.
+
+---
+
+class: center, middle
+
+# Terima kasih banyak!
+
+![](https://media.giphy.com/media/hrBSJ2So6iTo4/giphy.gif)
+
+Paparan disusun dengan menggunakan `r fa("r-project")` *package* [**xaringan**](https://github.com/yihui/xaringan) dengan *template* dan *fonts* dari `R-Ladies`.
+
+*Chakra* dibuat dengan [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), dan [R Markdown](https://rmarkdown.rstudio.com).
