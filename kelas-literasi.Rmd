@@ -369,15 +369,24 @@ class: inverse
 
 # Latihan 4
 
-Silahkan membentuk kelompok 3-4 orang untuk mendiskusikan sebuah artikel ilmiah selama kurang lebih 15 menit.
 
-[Klik disini untuk membaca artikel](https://doi.org/10.1016/j.vaccine.2018.07.025)
+* Carilah pasangan yang latar belakang keilmuannya berbeda dengan anda
+
+* Silahkan saling bertukar tulisan yang sudah dipersiapkan sebelumnya
+
+* Baca tulisan pasangan anda dan cek apakah:
+  - Apakah topik yang dipilih berdasarkan isu terkini ataukah isu yang sifatnya *explainer*?
+  - Strukturnya tulisannya lebih condong ke tulisan opini atau artikel ilmiah konvensional?
+  - Apakah *lead* tulisannya sudah cukup menarik minat pembaca untuk membaca tulisan tsb sampai selesai?
+  - Apakah ada istilah-istilah teknis yang tak umum dipahami orang awam?
+  - Apakah argumentasi pendukung yang disajikan koheren dengan *lead*?
+  - Apakah argumentasi dilandasi oleh bukti yang solid dan kredibel?
 
 --
 
 # Latihan 5
 
-Setelah membaca artikel tersebut, buatlah sebuah paragraf pendek untuk menceritakan kembali kesimpulan yang sudah anda baca dalam artikel tersebut. Jangan lupa **gunakan prinsip 5W1H dan storytelling**.
+Setelah masing-masing orang mendapatkan umpan balik, pilih salah satu tulisan untuk direvisi bersama-sama dengan pasangan.
 
 ---
 
